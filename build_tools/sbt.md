@@ -19,7 +19,7 @@ addSbtPlugin("org.ensime" % "sbt-ensime" % "0.5.0")
 
 **Check that again**, if you incorrectly used `~/.sbt/0.13/plugins.sbt` you'll get an sbt resolution error, it really has to be in the `plugins` folder.
 
-**One more check** we've undergone a few artefact name changes - make sure you copied the full line.
+**One more check** we've undergone a few artifact name changes - make sure you copied the full line.
 
 Alternatively, copy the `EnsimePlugin.scala` into your `project` directory and make sure you have `scalariform` and `scalap` on your project definition's classpath. This approach works well in environments that do not have access to maven central.
 
